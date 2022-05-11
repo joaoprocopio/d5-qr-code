@@ -1,11 +1,6 @@
 @import "./reset.css";
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
-* {
-	font-family: "Outfit", sans-serif;
-	font-weight: 400;
-}
-
 :root {
 	--white: hsl(0, 0%, 100%);
 	--light-gray: hsl(212, 45%, 89%);
@@ -13,16 +8,55 @@
 	--dark-blue: hsl(218, 44%, 22%);
 }
 
+* {
+	font-family: "Outfit", sans-serif;
+}
+
+body {
+	display: block;
+	width: 100vw;
+	height: 100vh;
+	background-color: var(--light-gray);
+}
+
+#content {
+	display: flex;
+	width: auto;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
-	width: 200px;
-	height: 400px;
-	background-color: var(--dark-blue);
+	width: 320px;
+	height: 497px;
+	padding: 16px;
+	border-radius: 16px;
+	background-color: var(--white);
 }
 
-@media screen and (min-width: 1440px) {
-	* {
-		background-color: red;
-	}
-} ;
+.text-container {
+	padding: 0 15px;
+	text-align: center;
+}
+
+.image {
+	border-radius: 8px;
+	width: 288px;
+	height: 288px;
+}
+
+.heading {
+	font-weight: 700;
+	font-size: 21px;
+	color: var(--dark-blue);
+}
+
+.paragraph {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 100%;
+	color: var(--grayish-blue);
+}
