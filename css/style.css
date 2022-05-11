@@ -4,10 +4,10 @@
 /* colors */
 
 :root {
-	--white: hsl(0, 0%, 100%);
-	--light-gray: hsl(212, 45%, 89%);
-	--grayish-blue: hsl(220, 15%, 55%);
-	--dark-blue: hsl(218, 44%, 22%);
+	--white: #ffffff;
+	--light-gray: #d6e2f0;
+	--grayish-blue: #7b879d;
+	--dark-blue: #1f3251;
 }
 
 /* font standardizing */
@@ -22,7 +22,6 @@ body {
 	display: block;
 	width: 100vw;
 	height: 100vh;
-	background-color: var(--light-gray);
 }
 
 /* main container */
@@ -33,6 +32,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	height: 100%;
+	background-color: var(--light-gray);
 }
 
 .box-container {
@@ -43,6 +43,7 @@ body {
 	padding: 16px;
 	border-radius: 16px;
 	overflow: hidden;
+	box-shadow: 0 4px 16px -8px var(--grayish-blue);
 	background-color: var(--white);
 }
 
