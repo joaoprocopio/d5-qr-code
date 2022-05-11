@@ -37,26 +37,29 @@ body {
 	background-color: var(--white);
 }
 
-.text-container {
-	padding: 0 15px;
-	text-align: center;
-}
-
 .image {
 	border-radius: 8px;
 	width: 288px;
 	height: 288px;
 }
 
+.text-container {
+	padding: 0 15px;
+	text-align: center;
+}
+
 .heading {
 	font-weight: 700;
 	font-size: 21px;
+	padding-top: 25px;
+	line-height: 1.3em;
 	color: var(--dark-blue);
 }
 
 .paragraph {
 	font-weight: 400;
-	font-size: 15px;
-	line-height: 100%;
+	font-size: 16px;
+	padding-top: 16px;
+	line-height: 1.2em;
 	color: var(--grayish-blue);
 }
