@@ -16,7 +16,7 @@
 	font-family: "Outfit", sans-serif;
 }
 
-/* main container */
+/* screen */
 
 #content {
 	width: 100vw;
@@ -26,6 +26,8 @@
 	justify-content: center;
 	background-color: var(--light-gray);
 }
+
+/* flex container */
 
 .box-container {
 	display: flex;
@@ -38,6 +40,8 @@
 	box-shadow: 0 4px 16px -8px var(--grayish-blue);
 	background-color: var(--white);
 }
+
+/* flex items */
 
 .image {
 	border-radius: 8px;
