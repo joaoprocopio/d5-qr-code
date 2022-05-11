@@ -16,22 +16,14 @@
 	font-family: "Outfit", sans-serif;
 }
 
-/* structure */
-
-body {
-	display: block;
-	width: 100vw;
-	height: 100vh;
-}
-
 /* main container */
 
 #content {
+	width: 100vw;
+	height: 100vh;
 	display: flex;
-	width: auto;
 	align-items: center;
 	justify-content: center;
-	height: 100%;
 	background-color: var(--light-gray);
 }
 
